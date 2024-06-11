@@ -2,29 +2,29 @@
     <defs>
         <style type="text/css">
             @keyframes nhapnhay {
-                0% {
-                    opacity: 0;
-                }
-                100% {
+                from {
                     opacity: 1;
+                }
+                to {
+                    opacity: 0;
                 }
             }
 
             @-moz-keyframes nhapnhay {
-                0% {
-                    -moz-opacity: 0;
+                from {
+                    opacity: 1;
                 }
-                100% {
-                    -moz-opacity: 1;
+                to {
+                    opacity: 0;
                 }
             }
 
             @-webkit-keyframes nhapnhay {
-                0% {
-                    -webkit-opacity: 0;
+                from {
+                    opacity: 1;
                 }
-                100% {
-                    -webkit-opacity: 1;
+                to {
+                    opacity: 0;
                 }
             }
 
